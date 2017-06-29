@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.text-header{
+  text-align: center;
+}
+
 .about-me{
   background: green;
 }
@@ -35,8 +39,17 @@
   background: gray;
 }
 
-html,body {height: 100%}
+html,body {
+  height: 100%;
+}
 
 body{
   background: #ddd;
+}
+
+#space{
+  background: red;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
 }
