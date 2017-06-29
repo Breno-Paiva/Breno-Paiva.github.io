@@ -1,0 +1,42 @@
+.space-header{
+  background: yellow;
+  height: 100%;
+}
+
+.about-me{
+  background: green;
+}
+
+.projects{
+  background: purple;
+}
+
+.skills{
+  background: green;
+}
+
+.contact{
+  background: purple;
+}
+
+.footer{
+  background: blue;
+}
+
+.my-nav{
+  background: orange;
+}
+
+.my-nav a{
+  color: gray;
+}
+
+.icon-bar{
+  background: gray;
+}
+
+html,body {height: 100%}
+
+body{
+  background: #ddd;
+}
