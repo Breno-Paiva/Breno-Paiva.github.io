@@ -1,5 +1,7 @@
 .space-header{
   height: 100%;
+  width: 100%;
+  padding: 0;
 }
 
 .text-header{
@@ -51,4 +53,5 @@ body{
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100%;
+  width: 100%;
 }
