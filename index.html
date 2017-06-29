@@ -11,15 +11,14 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4/bonsai.min.js"></script>
   </head>
   <body>
+
     <div class="container space-header">
-      <div id="space">
-          <h1 class="text-header">BRENO • SPACE</h1>
-        </div>
+        <h1 class="text-header">BRENO • SPACE</h1>
       </div>
     </div>
 
-
-    <nav class="navbar" data-spy="affix" data-offset-top= "500">
+  <div class="nav-wrapper">
+    <nav class="navbar" data-spy="affix container" id="navv">
       <div class="container-fluid my-nav">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,6 +38,7 @@
         </div>
       </div>
     </nav>
+  </div>
 
     <div class="container about-me">
       <h1>About B</h1>
@@ -82,13 +82,15 @@
       <br/>
     </div>
 
-    <script>
+    <!-- <script>
       bonsai.run(document.getElementById('space'),{
         url: './space.js',
         width: 500000,
         height: 50000
       });
-    </script>
+    </script> -->
+    <script type="text/javascript" src="./space.js">
 
+    </script>
   </body>
 </html>
