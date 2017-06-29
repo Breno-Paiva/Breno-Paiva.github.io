@@ -11,7 +11,7 @@
   // var screenWidth = 250;
   // var screenHeight = 250;
 
-  var circleShape = new Circle(150, 150, 50).fill('teal').addTo(stage);
+  var circleShape = new Circle(-150, 150, 50).fill('teal').addTo(stage);
 
   var circleAnimation = new Animation('2s',{
     x: 1200
