@@ -9,88 +9,135 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4/bonsai.min.js"></script>
+    		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <div class="container space-header">
-        <h1 class="text-header">BRENO • SPACE</h1>
-      </div>
-    </div>
+    <section class="container-fluid space-header">
+        <h1 class="text-header">BRENO</h1>
+        <h1 class="text-header">• </h1>
+        <h1 class="text-header">SPACE</h1>
+    </section>
 
-  <div class="nav-wrapper">
-    <nav class="navbar" data-spy="affix container" id="navv">
-      <div class="container-fluid my-nav">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">WebSiteName</a>
+    <section class="nav-wrapper">
+      <nav class="navbar navbar-inverse" data-spy="affix container" id="navv">
+        <div class="container-fluid my-nav">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Breno Paiva</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#about-me">Greetings</a></li>
+              <li><a href="#projects">Creations</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Holla!</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
+      </nav>
+    </section>
+
+    <section class="container" id="about-me">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="https://static.artfire.com/uploads/products/2015/02/19/22/11155686/large/bear_in_a_suit_art_vintage_animal_rights_vegan_peta_short_sleeved_tee_men_ladies_unisex_tee_shirt_present_gift_89ea2a73.jpg" alt="" id="full-body-pic">
+        </div>
+        <div class="col-sm-8">
+          <h1>About B</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
-    </nav>
-  </div>
+    </section>
 
-    <div class="container about-me">
-      <h1>About B</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+    <section class="container" id="projects">
+      <h1>The Frisky App Suite</h1>
 
-    <div class="container projects">
-      <h1>Projects</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <br/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+      <div class="col-sm-4">
+        <a href="http://breno.space/FunkyDancer/" target="_blank" class="image fit"><img src="images/funky_dancer_pic.png" alt="" /></a>
+        <header>
+          <h3>Funky Dancer</h3>
+          <p>Music rhythm game that also simulates dance moves.  Notes scroll down the screen in synch with a song and user must strike the correspoinding key at the correct time.  Choice of two songs.</p>
+          <div class="project-links">
+            <a href="https://github.com/friskyB/FunkyDancer" target="_blank"><h3>GIT</h3></a>
+            <a href="http://breno.space/FunkyDancer/" target="_blank"><h3>LIVE</h3></a>
+          </div>
+        </header>
+      </div>
+      <div class="col-sm-4">
+        <a href="http://www.flashycards.club/" target="_blank" class="image fit"><img src="images/flashy_cards_pic.png" alt="" /></a>
+        <header>
+          <h3>Flashy Cards</h3>
+          <p>Single-page flash card web application inspired by brainscape.  Create and manage decks and cards to study as well as subscribe to multiple subjects.  Various progress bars give users feedback on how well they're doing.</p>
+          <div class="project-links">
+            <a href="https://github.com/friskyB/FlashyCards" target="_blank"><h3>GIT</h3></a>
+            <a href="http://www.flashycards.club/" target="_blank"><h3>LIVE</h3></a>
+        </header>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://github.com/friskyB/FlippyData" target="_blank" class="image fit"><img src="images/flippy_data_pic.png" alt="" /></a>
+        <header>
+          <h3>Flippy Data</h3>
+          <p>ORM that queries a database through class associations and allows for easy DB manipulation</p>
+          <div class="project-links">
+            <a href="https://github.com/friskyB/FlippyData" target="_blank"><h3>GIT</h3></a>
+        </header>
+      </div>
 
-    <div class="container skills">
+    </section>
+
+    <section class="container" id="skills">
       <h1>Skills</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+      <a href="./images/Breno_Paiva_Resume.pdf" target="_blank">View Breno's Resume</a>
+      <br />
+      <br />
+      <div class="skill-icons">
+        <i class="devicon-css3-plain-wordmark"></i>
+        <i class="devicon-git-plain"></i>
+        <i class="devicon-heroku-original"></i>
+        <i class="devicon-html5-plain-wordmark"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-jquery-plain-wordmark"></i>
+        <i class="devicon-postgresql-plain-wordmark"></i>
+        <i class="devicon-rails-plain-wordmark"></i>
+        <i class="devicon-react-original"></i>
+        <i class="devicon-ruby-plain"></i>
+        <i class="devicon-sass-original"></i>
+      </div>
+    </section>
 
-    <div class="container contact">
+    <section class="container" id="contact">
+      <div id="tv">
+        <a href="http://breno.space/FunkyDancer/" target="_blank" class="image fit"><img src="images/funky_dancer_pic.png" alt="" /></a>
+      </div>
       <h1>Contact</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+    </section>
 
-    <div class="container footer">
+    <section class="container" id="footer">
       <br/>
       <h1>Footer</h1>
       <br/>
-    </div>
+    </section>
 
-    <!-- <script>
-      bonsai.run(document.getElementById('space'),{
-        url: './space.js',
-        width: 500000,
-        height: 50000
-      });
-    </script> -->
     <script type="text/javascript" src="./space.js">
-
     </script>
   </body>
 </html>

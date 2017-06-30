@@ -1,72 +1,68 @@
+:root {
+  --primary-0: #809EC0 ;
+  --primary-1: #CADFF7 ;
+  --primary-2: #A3C1E1 ;
+  --primary-3: #647F9D ;
+  --primary-4: #39516B ;
+  --secondary-1-0: #ABE692 ;
+  --secondary-1-1: #D9FCCA ;
+  --secondary-1-2: #C0F3AB ;
+  --secondary-1-3: #96CF7E ;
+  --secondary-1-4: #5B8C46 ;
+  --secondary-2-0: #A183C5 ;
+  --secondary-2-1: #DFCBF8 ;
+  --secondary-2-2: #C1A5E3 ;
+  --secondary-2-3: #8368A3 ;
+  --secondary-2-4: #533B6F ;
+  }
+
 .space-header{
   height: 100%;
   width: 100%;
   padding: 0;
-  background: teal;
-}
-
-.spaceee{
-
-  height: 100%;
-  width: 100%;
-
+  background: var(--secondary-1-0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
 
 .text-header{
   text-align: center;
 }
 
-.about-me{
+/*#about-me{
   background: green;
 }
 
-.projects{
+#projects{
   background: purple;
 }
 
-.skills{
+#skills{
   background: green;
 }
 
-.contact{
+#contact{
   background: purple;
 }
 
-.footer{
+#footer{
   background: blue;
-}
-
-.my-nav{
-  background: orange;
-}
-
-.my-nav a{
-  color: gray;
-}
-
-.icon-bar{
-  background: gray;
-}
+}*/
 
 html,body {
   height: 100%;
 }
 
 body{
-  background: #ddd;
-}
-
-#space{
-  background: red;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 100%;
-  width: 100%;
+  background: var(--primary-1);
 }
 
 .affix {
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 .affix-top {
   position: static;
@@ -78,4 +74,50 @@ body{
 
 .nav-wrapper{
   height: 55px;
+}
+
+#about-me img{
+  width: 80%;
+}
+
+#projects img{
+  width: 100%;
+}
+
+#projects {
+  text-align: center;
+}
+
+/*#projects .col-sm-4 {
+  border: 1px solid #eee;
+  margin: 0 5px;
+}*/
+
+
+#tv {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  margin: 20px 0;
+  background: var(--secondary-2-2);
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*#tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}*/
+#tv img{
+  width: 95%;
 }
