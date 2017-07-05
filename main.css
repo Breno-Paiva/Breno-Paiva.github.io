@@ -25,12 +25,18 @@
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  background-image: url('./images/giphy.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
 }
 
 .text-header{
   text-align: center;
   font-size: 70px;
   color: var(--secondary-1-0);
+  letter-spacing: 5px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 /*#about-me{
