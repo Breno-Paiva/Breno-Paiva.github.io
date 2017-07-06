@@ -105,7 +105,12 @@
   border-radius: 200px;
 }
 #about-me .my-info img:hover{
-  background: var(--secondary-2-2);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 .poem{
@@ -120,6 +125,9 @@
   background: var(--secondary-1-0);
   border-radius: 200px;
   text-align: center;
+  -webkit-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.44);
+  -moz-box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.44);
+  box-shadow: 0px 1px 13px 1px rgba(0,0,0,0.44);
 }
 
 .poem strong{ font-size: 22px; }
