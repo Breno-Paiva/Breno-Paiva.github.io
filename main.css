@@ -18,7 +18,15 @@
 
   html,body { height: 100% }
 
-  body{ background: var(--primary-2) }
+  body{
+    background: var(--primary-2);
+    font-family: 'Share Tech Mono', monospace;
+   }
+
+   h1 {
+     font-family: 'VT323', monospace;
+     font-size: 52px;
+   }
 
 /*header*/
 
@@ -40,10 +48,10 @@
 
 .text-header{
   text-align: center;
-  font-size: 70px;
+  font-size: 80px;
   color: var(--secondary-1-0);
   letter-spacing: 10px;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-shadow: -3px 0 #222, 0 3px #222, 3px 0 #222, 0 -3px #222;
 }
 
 .arrow {
