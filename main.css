@@ -16,6 +16,12 @@
   --secondary-2-4: #533B6F ;
   }
 
+  html,body { height: 100% }
+
+  body{ background: var(--primary-2) }
+
+/*header*/
+
 .space-header{
   height: 100%;
   width: 100%;
@@ -40,33 +46,37 @@
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-/*#about-me{
-  background: green;
+.arrow {
+  text-align: center;
+  margin: 0% 0;
+  font-size: 30px;
+  position: relative;
+  top: 40px;
+}
+.arrow a{
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-decoration: none;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
-#projects{
-  background: purple;
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
-#skills{
-  background: green;
-}
-
-#contact{
-  background: purple;
-}
-
-#footer{
-  background: blue;
-}*/
-
-html,body {
-  height: 100%;
-}
-
-body{
-  background: var(--primary-2);
-}
+/*navbar*/
 
 .affix {
   top: 0;
@@ -87,6 +97,25 @@ body{
 
 #about-me img{
   width: 80%;
+}
+
+.poem{
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.poem{ font-size: 16px; }
+
+.poem strong{ font-size: 22px; }
+
+.my-info{
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
 }
 
 #projects img{
@@ -157,33 +186,4 @@ body{
   padding-top: 10px;
   padding-bottom: 0;
   text-align: center;
-}
-
-.arrow {
-  text-align: center;
-  margin: 0% 0;
-  font-size: 30px;
-  position: relative;
-  top: 40px;
-}
-.arrow a{
-  color: white;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
 }
