@@ -154,7 +154,7 @@
   text-align: center;
 }
 
-video {
+#project-video {
   height: auto;
   width: 95%;
   border: 2px solid var(--secondary-2-3);
