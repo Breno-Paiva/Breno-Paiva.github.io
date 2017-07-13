@@ -109,7 +109,6 @@
 
 #about-me .my-info img{
   width: 80px;
-  /*background: var(--secondary-2-0);*/
   border-radius: 200px;
 }
 #about-me .my-info img:hover{
@@ -184,11 +183,6 @@
 .project-links a:hover{
   text-decoration: none;
 }
-
-/*#projects .col-sm-4 {
-  border: 1px solid #aaa;
-}*/
-
 
 #tv {
   position: relative;
