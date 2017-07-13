@@ -160,6 +160,12 @@
   border: 2px solid var(--secondary-2-3);
   border-radius: 50% / 10%;
 }
+.vsc-initialized {
+  height: auto;
+  width: 95%;
+  border: 2px solid var(--secondary-2-3);
+  border-radius: 50% / 10%;
+}
 
 #projects h2 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
