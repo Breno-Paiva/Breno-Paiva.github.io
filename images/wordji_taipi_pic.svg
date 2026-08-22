@@ -1,0 +1,75 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a green mountain, bay, small town and palm trees">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7eed4"/>
+      <stop offset="55%" stop-color="#eed48a"/>
+      <stop offset="100%" stop-color="#cfe0d2"/>
+    </linearGradient>
+    <linearGradient id="bayGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#aecfcb"/>
+      <stop offset="100%" stop-color="#8db7ba"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="340" fill="url(#skyGrad)"/>
+
+  <path d="M-10,205 Q70,150 150,185 T320,190 L320,245 L-10,245 Z" fill="#cbb9d6" opacity="0.5"/>
+
+  <path d="M175,245 L305,85 Q332,55 362,88 L525,245 Z" fill="#7e9a49"/>
+  <path d="M305,85 Q332,55 362,88 L430,245 L305,245 Z" fill="#5f7c37" opacity="0.6"/>
+  <path d="M300,92 Q325,68 350,90 L368,138 L285,138 Z" fill="#d3ecd2" opacity="0.55"/>
+
+  <g>
+    <rect x="70" y="228" width="16" height="20" fill="#e8ddc8"/>
+    <rect x="88" y="222" width="12" height="26" fill="#c1552c"/>
+    <rect x="104" y="232" width="18" height="16" fill="#e0a530"/>
+    <rect x="126" y="226" width="14" height="22" fill="#e8ddc8"/>
+    <rect x="144" y="234" width="16" height="14" fill="#8db7ba"/>
+    <rect x="164" y="224" width="12" height="24" fill="#c1552c"/>
+    <rect x="180" y="230" width="20" height="18" fill="#e8ddc8"/>
+    <rect x="380" y="230" width="16" height="18" fill="#e8ddc8"/>
+    <rect x="398" y="224" width="14" height="24" fill="#e0a530"/>
+    <rect x="416" y="234" width="18" height="14" fill="#c1552c"/>
+    <rect x="438" y="226" width="12" height="22" fill="#8db7ba"/>
+    <rect x="454" y="232" width="16" height="16" fill="#e8ddc8"/>
+    <rect x="474" y="222" width="14" height="26" fill="#e0a530"/>
+  </g>
+
+  <path d="M-10,250 Q150,225 300,250 T610,250 L610,340 L-10,340 Z" fill="url(#bayGrad)"/>
+  <g stroke="#f2f7f1" stroke-width="2" opacity="0.5">
+    <line x1="70" y1="268" x2="170" y2="266"/>
+    <line x1="230" y1="278" x2="360" y2="276"/>
+    <line x1="410" y1="268" x2="510" y2="270"/>
+  </g>
+
+  <path d="M96,340 C104,255 62,205 80,148" stroke="#4f6b2f" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <g fill="#5c7a37">
+    <path d="M80,148 Q40,112 8,128 Q46,140 80,148 Z"/>
+    <path d="M80,148 Q34,142 6,180 Q48,158 80,148 Z"/>
+    <path d="M80,148 Q66,96 82,54 Q98,100 80,148 Z"/>
+    <path d="M80,148 Q118,108 158,116 Q116,134 80,148 Z"/>
+    <path d="M80,148 Q126,150 156,186 Q114,164 80,148 Z"/>
+  </g>
+
+  <path d="M146,340 C134,248 168,192 138,142" stroke="#3f5a26" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <g fill="#4a6530">
+    <path d="M138,142 Q100,110 72,128 Q104,138 138,142 Z"/>
+    <path d="M138,142 Q160,98 148,58 Q178,100 138,142 Z"/>
+    <path d="M138,142 Q176,112 210,126 Q172,136 138,142 Z"/>
+    <path d="M138,142 Q182,146 206,178 Q168,160 138,142 Z"/>
+  </g>
+
+  <g fill="#5c7a37">
+    <ellipse cx="36" cy="332" rx="34" ry="13" transform="rotate(-12 36 332)"/>
+    <ellipse cx="82" cy="337" rx="28" ry="11" transform="rotate(8 82 337)"/>
+  </g>
+  <g fill="#c1552c">
+    <circle cx="50" cy="323" r="5"/>
+    <circle cx="66" cy="328" r="4"/>
+  </g>
+  <g fill="#e0a530">
+    <circle cx="58" cy="318" r="3.5"/>
+  </g>
+
+  <rect x="5" y="5" width="590" height="330" fill="none" stroke="#33291f" stroke-width="4"/>
+</svg>
