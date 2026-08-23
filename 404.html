@@ -18,5 +18,33 @@
         <a href="/">Back to BRENO PAIVA</a>
       </div>
     </section>
+    <script>
+      // GitHub Pages routes /RepoName case-sensitively, so a typo'd or
+      // differently-cased visit to a project (wordji, WORDJI, word,
+      // wordjiTaipi, ...) lands here instead of the live page. Catch that
+      // here and bounce to the correct project instead of showing 404.
+      //
+      // To add a project once it goes live, add its repo name below.
+      var PROJECTS = ["Wordji", "FunkyDancer"];
+
+      (function redirectToProjectIfKnown() {
+        var segments = window.location.pathname.split("/").filter(Boolean);
+        if (segments.length === 0) return;
+
+        var normalize = function (s) { return s.toLowerCase().replace(/[^a-z0-9]/g, ""); };
+        var requested = normalize(segments[0]);
+        if (requested.length < 4) return; // avoid matching on very short/ambiguous typos
+
+        var match = PROJECTS.find(function (name) {
+          var canonical = normalize(name);
+          return canonical.indexOf(requested) === 0 || requested.indexOf(canonical) === 0;
+        });
+        if (!match) return;
+
+        var rest = segments.slice(1).join("/");
+        var target = "/" + match + "/" + rest + window.location.search + window.location.hash;
+        window.location.replace(target);
+      })();
+    </script>
   </body>
 </html>
