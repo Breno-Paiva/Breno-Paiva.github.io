@@ -31,19 +31,14 @@
 /*header*/
 
 .space-header{
-  height: 100%;
   width: 100%;
-  padding: 0;
+  padding: 40px 0;
   margin: 0;
-  background: #444;
+  background: var(--primary-4);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
-  background-image: url('./images/giphy.gif');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .text-header{
@@ -52,6 +47,15 @@
   color: var(--secondary-1-0);
   letter-spacing: 10px;
   text-shadow: -3px 0 #222, 0 3px #222, 3px 0 #222, 0 -3px #222;
+}
+
+.hero-bee {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--secondary-1-0);
+  margin-bottom: 20px;
 }
 
 .arrow {
@@ -66,41 +70,14 @@
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   text-decoration: none;
 }
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
 
 /*navbar*/
 
-.affix {
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-.affix-top {
-  position: static;
-  top: -35px;
-}
-.affix + .container-fluid {
-  padding-top: 70px;
-}
-
 .nav-wrapper{
   height: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 #about-me img{
