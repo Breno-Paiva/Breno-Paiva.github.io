@@ -303,23 +303,6 @@
   background: var(--primary-1);
 }
 
-#skills{
-  text-align: center;
-}
-.skill-icons{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  font-size: clamp(56px, 14vw, 100px);
-  padding: 20px;
-}
-
-#skills h1{
-  margin-bottom: 25px;
-}
-
 #contact{
   text-align: center;
 }
