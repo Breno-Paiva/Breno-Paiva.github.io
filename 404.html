@@ -20,12 +20,12 @@
     </section>
     <script>
       // GitHub Pages routes /RepoName case-sensitively, so a typo'd or
-      // differently-cased visit to a project (wordji, WORDJI, word,
-      // wordjiTaipi, ...) lands here instead of the live page. Catch that
-      // here and bounce to the correct project instead of showing 404.
+      // differently-cased visit to a project (wordji, WORDJI, word, ...)
+      // lands here instead of the live page. Catch that here and bounce to
+      // the correct project instead of showing 404.
       //
       // To add a project once it goes live, add its repo name below.
-      var PROJECTS = ["Wordji", "FunkyDancer"];
+      var PROJECTS = ["Wordji", "FunkyDancer", "Codji"];
 
       (function redirectToProjectIfKnown() {
         var segments = window.location.pathname.split("/").filter(Boolean);
